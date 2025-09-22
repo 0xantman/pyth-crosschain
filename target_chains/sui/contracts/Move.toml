@@ -3,15 +3,10 @@ name = "Pyth"
 version = "0.0.2"
 published-at = "0x00b53b0f4174108627fbee72e2498b58d6a2714cded53fac537034c220d26302"
 
-[dependencies.Sui]
-git = "https://github.com/MystenLabs/sui.git"
-subdir = "crates/sui-framework/packages/sui-framework"
-rev = "041c5f2bae2fe52079e44b70514333532d69f4e6"
-
 [dependencies.Wormhole]
 git = "https://github.com/suilend/wormhole.git"
 subdir = "sui/wormhole"
-rev = "be7f3c862925d1dd4c55cbca35e7693dc562284d"
+rev = "88c57a91758a67121b2a10e2d752f95ae2f29284"
 
 [addresses]
 pyth = "0x00b53b0f4174108627fbee72e2498b58d6a2714cded53fac537034c220d26302"
